@@ -158,8 +158,8 @@ public class FirstPersonController : MonoBehaviour
 
         if(crosshair)
         {
-            crosshairObject.sprite = crosshairImage;
-            crosshairObject.color = crosshairColor;
+            //crosshairObject.sprite = crosshairImage;
+            //crosshairObject.color = crosshairColor;
         }
         else
         {
@@ -191,8 +191,8 @@ public class FirstPersonController : MonoBehaviour
         }
         else
         {
-            sprintBarBG.gameObject.SetActive(false);
-            sprintBar.gameObject.SetActive(false);
+            //sprintBarBG.gameObject.SetActive(false);
+            //sprintBar.gameObject.SetActive(false);
         }
 
         #endregion
